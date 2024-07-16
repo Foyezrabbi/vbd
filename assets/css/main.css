@@ -268,13 +268,14 @@ ul li {
 }
 .navbar-custom .navbar-nav > li > a {
   color: #000;
+  background-color: #ffff00;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 400;
   border-bottom: 1px solid transparent;
 }
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
-  background-color: transparent;
+  background-color: #ffff00;
   border-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-custom .navbar-nav > .active > a {
