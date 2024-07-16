@@ -365,7 +365,7 @@ ul li {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    background-color: #fff;
     padding-top: 30px;
   }
 
