@@ -12,7 +12,7 @@ html {
 
 body {
   background-color: #0e6e10;
-  color: #4e4e4e;
+  color: #000;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -259,7 +259,7 @@ ul li {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #000;
+  background-color: #ffff00;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
 }
@@ -267,7 +267,7 @@ ul li {
   margin: 0;
 }
 .navbar-custom .navbar-nav > li > a {
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 400;
@@ -303,7 +303,7 @@ ul li {
   margin-left: 10px;
 }
 .site-branding .logo {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   font-weight: 700;
   margin-right: 5px;
