@@ -292,7 +292,7 @@ ul li {
 }
 
 .navbar-solid {
-  background-color: #000 !important;
+  background-color: #fff000 !important;
   padding: 0 !important;
   -webkit-transition: all 0.2s linear 0s;
           transition: all 0.2s linear 0s;
@@ -365,7 +365,7 @@ ul li {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: #fff;
+    background-color: #fff000;
     padding-top: 30px;
   }
 
