@@ -1570,6 +1570,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+  background-color: #ffff00;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
