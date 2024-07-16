@@ -267,7 +267,7 @@ ul li {
   margin: 0;
 }
 .navbar-custom .navbar-nav > li > a {
-  color: #000;
+  color: #fff;
   background-color: #ffff00;
   text-transform: uppercase;
   font-size: 12px;
@@ -288,7 +288,7 @@ ul li {
   margin-top: 2px;
 }
 .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .navbar-solid {
@@ -304,7 +304,7 @@ ul li {
   margin-left: 10px;
 }
 .site-branding .logo {
-  color: #000;
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
   margin-right: 5px;
