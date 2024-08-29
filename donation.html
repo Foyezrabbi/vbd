@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Solution Hunt</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+
+
+</head>
+<body>
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <img src="assets/images/logo.png" alt="Logo" width="30" height="40">
+
+                        Solution Hunt 
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#speakers">Speakers</a></li>              
+                    <li><a data-scroll href="#schedule">Schedule</a></li>                  
+                    <li><a data-scroll href="#partner">Partner</a></li>                  
+                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+                    <li><a data-scroll href="#faq">FAQ</a></li>
+                    <li><a data-scroll href="#photos">Photos</a></li>
+                    <li><a href="donation.html">Donation</a></li>
+                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <main class="donation-container">
+        <section class="donation-info">
+            <p>Your generous donations help us continue our mission to improve our community. Every contribution counts!</p>
+            <h2>Donate Today!</h2>
+        </section>
+        <section class="donation-content">
+            <div class="donation-options">
+                <h3>Select a Donation Amount</h3>
+                <button class="donation-button" data-amount="100">Donate ৳100</button>
+                <button class="donation-button" data-amount="200">Donate ৳200</button>
+                <button class="donation-button" data-amount="300">Donate ৳300</button>
+                <input type="number" id="custom-amount" placeholder="Enter Custom Amount" min="1">
+                <button id="custom-donate" class="donation-button">Donate Custom Amount</button>
+                <h3>Select a Payment Method</h3>
+                <button class="payment-button" data-method="bkash">bKash</button>
+                <button class="payment-button" data-method="nagad">Nagad</button>
+                <button class="payment-button" data-method="card">Card</button>
+                <button class="payment-button" data-method="paypal">PayPal</button>
+            </div>
+            <div class="qr-code-section">
+                <div id="qrcode"></div>
+                <p>Scan to view the donation sheet</p>
+                <img src="qr_scan_image.png" alt="QR Code for Scanning" class="qr-image">
+            </div>
+        </section>
+        <section class="total-donated">
+            <h2>Total Donated by All Users: <span id="total-amount">৳0</span></h2>
+        </section>
+    </main>
+    <footer>
+        <p>Thank you for your support! Together, we make a difference.</p>
+    </footer>
+
+    
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/donation.js"></script>
+</body>
+</html>
